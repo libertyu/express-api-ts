@@ -1,2 +1,2 @@
 #サーバー起動
-npx ts-node-dev src/router/server.ts
+npx ts-node-dev src/infrastructure/router/server.ts
