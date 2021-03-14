@@ -1,8 +1,8 @@
-import { TodoController } from "../../interfaces/controllers/TodoController/TodoController";
+import { TodoController } from "../../interfaces/controllers/TodoController";
 import express from "express";
 
 const router = express.Router();
 
-router.get("/todos", TodoController.index);
+router.get("/todos", TodoController.fetch);
 
 export default router;
